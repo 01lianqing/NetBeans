@@ -1,0 +1,24 @@
+#include <cstdlib>
+#include <iostream>
+#include<cstdio>
+#include"Erfen.h"
+using namespace std;
+
+void test_quick_sort(char file[]) {
+    vector<int> vec;
+    init(vec, file);
+    int size = vec.size();
+    cout << "before :";
+    show_vector(vec);
+    quick_sort(vec, 0, size - 1);
+    cout << "after :";
+    show_vector(vec);
+}
+
+int main(int argc, char** argv) {
+    char file[] = "E:\\JAVA\\FenZhi\\vector.txt";
+    test_quick_sort(file);
+    return 0;
+}
+
+

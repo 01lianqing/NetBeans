@@ -1,0 +1,79 @@
+
+ -ERROR- 
+('#', 0) (include,0) ('<', 33) (iostream,1) ('>', 36) 
+ -ERROR- 
+('#', 0) (include,2) ('<', 33) (cstdio,2) ('>', 36) 
+ -ERROR- 
+('#', 0) (include,3) ('<', 33) (cmath,3) ('>', 36) 
+ -ERROR- 
+('#', 0) (include,4) ('<', 33) (algorithm,4) ('>', 36) 
+ -ERROR- 
+(using,5) (namespace,6) (std,7) (';', 41) 
+ -ERROR- 
+
+ -ERROR- 
+(int,7) (partition,8) ('(', 42) (int,7) (a,9) 
+ -ERROR- 
+
+ -ERROR- 
+
+ -ERROR- 
+(int,7) (left,10) 
+ -ERROR- 
+(int,7) (right,11) 
+ -ERROR- 
+(int,7) (midle,12) (')', 43) 
+ -ERROR- 
+('{', 45) 
+ -ERROR- 
+
+ -ERROR- 
+(int,7) (l,13) ('=', 38) (left,14) 
+ -ERROR- 
+(r,14) ('=', 38) (right,15) (';', 41) 
+ -ERROR- 
+(while,4) ('(', 42) (1,15) (')', 43) 
+ -ERROR- 
+('{', 45) 
+ -ERROR- 
+(while,4) ('(', 42) (a,16) 
+ -ERROR- 
+(l,16) 
+ -ERROR- 
+('<', 33) ('<=', 35) (midle,16) 
+ -ERROR- 
+
+ -ERROR- 
+(r,16) ('>', 36) (l,16) (')', 43) (l,16) 
+ -ERROR- 
+
+ -ERROR- 
+(';', 41) 
+ -ERROR- 
+(while,4) ('(', 42) (a,16) 
+ -ERROR- 
+(r,16) 
+ -ERROR- 
+('>', 36) (midle,16) (')', 43) (r,16) 
+ -ERROR- 
+
+ -ERROR- 
+(';', 41) 
+ -ERROR- 
+(if,2) ('(', 42) (r,16) ('<', 33) ('<=', 35) (l,16) (')', 43) (break,10) (';', 41) (swap,16) ('(', 42) (a,17) 
+ -ERROR- 
+(l,17) 
+ -ERROR- 
+
+ -ERROR- 
+(a,17) 
+ -ERROR- 
+(r,17) 
+ -ERROR- 
+(')', 43) (';', 41) 
+ -ERROR- 
+('}', 44) 
+ -ERROR- 
+(return,17) (l,17) (';', 41) 
+ -ERROR- 
+('}', 44) 

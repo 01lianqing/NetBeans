@@ -1,0 +1,19 @@
+#include<iostream>
+#include<cstdio>
+#include<cmath>
+#include<algorithm>
+using namespace std;
+
+int partition(int a[],int left,int right,int midle)
+{
+    
+    int l=left,r=right;
+    while(1)
+    {
+       while(a[l]<=midle&&r>l) l++;
+       while(a[r]>midle) r--;
+       if(r<=l) break;//注意到判定只能在这里实现，否则就会漏掉相应的情况
+       swap(a[l],a[r]);
+    }
+    return l;
+}
